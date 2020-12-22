@@ -8,7 +8,7 @@ to interface with a four-digit 7-segment display. The library gives users the ab
 
 ### Default Pin Setup 
 #### Segment Control Pins 
-pinA --> 0 &emsp;&emsp; pinB --> 1 &emsp;&emsp; pinC --> 2 &emsp;&emsp; pinD --> 3 &emsp;&emsp; pinE --> 4
+pinA --> 0 &emsp;&emsp; pinB --> 1 &emsp;&emsp; pinC --> 2 &emsp;&emsp; pinD --> 3 &emsp;&emsp; pinE --> 4  
 pinF --> 5 &emsp;&emsp; pinG --> 6 &emsp;&emsp; pinDot --> 7  
 
 #### Digit Control Pins
