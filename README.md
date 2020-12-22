@@ -8,17 +8,17 @@ to interface with a four-digit 7-segment display. The library gives users the ab
 
 ### Default Pin Setup 
 #### Segment Control Pins 
-pinA --> 0 &emsp;&emsp; pinB --> 1 &emsp;&emsp; pinC --> 2 &emsp;&emsp; pinD --> 3 &emsp;&emsp; pinE --> 4  
-pinF --> 5 &emsp;&emsp; pinG --> 6 &emsp;&emsp; pinDot --> 7  
+pinA --> 2 &emsp;&emsp; pinB --> 3 &emsp;&emsp; pinC --> 4 &emsp;&emsp; pinD --> 5 &emsp;&emsp; pinE --> 6  
+pinF --> 7 &emsp;&emsp; pinG --> 8 &emsp;&emsp; pinDot --> 9  
 
 #### Digit Control Pins
-pinC1 --> 8 &emsp;&emsp; pinC2 --> 9 &emsp;&emsp; pinC3 --> 10 &emsp;&emsp; pinC4 --> 11  
+pinC1 --> 10 &emsp;&emsp; pinC2 --> 11 &emsp;&emsp; pinC3 --> 12 &emsp;&emsp; pinC4 --> 13  
 
 
 ### Installation 
 Download and move the FourSegDisplay folder into the libraries sub-directory
-of your sketchbook directory. Next import the library into your code by 
-selecting **Sketch > Include Library **
+of your sketchbook directory. Then import the library into your code by 
+selecting **Sketch >> Include Library**
 
 ## Usage 
 ```cpp
@@ -27,7 +27,7 @@ selecting **Sketch > Include Library **
 FourSegDisplay segment;
 
 void setup() {
-  segment.setPinA(2);
+  segment.setPinA(7);
    ...
 }
 

@@ -10,36 +10,36 @@
 #include "FourSegDisplay.h"
 
 // Default Constructor sets default pin values
-// Segment control pins : 0 - 7
-// Digit control pins : 8 - 11
+// Segment control pins : 2 - 9
+// Digit control pins : 10 - 13
 FourSegDisplay::FourSegDisplay() {
     // Segment control pins
-    pinMode(0, OUTPUT);
-    pinA_ = 0;
-    pinMode(1, OUTPUT);
-    pinB_ = 1;
     pinMode(2, OUTPUT);
-    pinC_ = 2;
+    pinA_ = 2;
     pinMode(3, OUTPUT);
-    pinD_ = 3;
+    pinB_ = 3;
     pinMode(4, OUTPUT);
-    pinE_ = 4;
-    pinMode(4, OUTPUT);
-    pinF_ = 5;
+    pinC_ = 4;
+    pinMode(5, OUTPUT);
+    pinD_ = 5;
     pinMode(6, OUTPUT);
-    pinG_ = 6;
+    pinE_ = 6;
     pinMode(7, OUTPUT);
-    pinDot_ = 7;
+    pinF_ = 7;
+    pinMode(8, OUTPUT);
+    pinG_ = 8;
+    pinMode(9, OUTPUT);
+    pinDot_ = 9;
 
     // Digit control pins
-    pinMode(8, OUTPUT);
-    pinC1_ = 8;
-    pinMode(9, OUTPUT);
-    pinC2_ = 9;
     pinMode(10, OUTPUT);
-    pinC3_ = 10;
+    pinC1_ = 10;
     pinMode(11, OUTPUT);
-    pinC4_ = 11;
+    pinC2_ = 11;
+    pinMode(12, OUTPUT);
+    pinC3_ = 12;
+    pinMode(13, OUTPUT);
+    pinC4_ = 13;
 }
 
 // Method takes string representation of a number and prints it to
