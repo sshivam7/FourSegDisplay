@@ -8,13 +8,11 @@ to interface with a four-digit 7-segment display. The library gives users the ab
 
 ### Default Pin Setup 
 #### Segment Control Pins 
-pinA --> 0     pinB --> 1     pinC --> 2
-pinD --> 3     pinE --> 4     pinF --> 5
-pinG --> 6     pinDot --> 7
+pinA --> 0 &emsp;&emsp; pinB --> 1 &emsp;&emsp; pinC --> 2 &emsp;&emsp; pinD --> 3 &emsp;&emsp; pinE --> 4
+pinF --> 5 &emsp;&emsp; pinG --> 6 &emsp;&emsp; pinDot --> 7  
 
 #### Digit Control Pins
-pinC1 --> 8    pinC2 --> 9    pinC3 --> 10
-pinC4 --> 11
+pinC1 --> 8 &emsp;&emsp; pinC2 --> 9 &emsp;&emsp; pinC3 --> 10 &emsp;&emsp; pinC4 --> 11  
 
 
 ### Installation 
@@ -38,7 +36,7 @@ void loop() {
  }
 ```
 
-### Functions
+## Functions
 ##### void printNum(String numToPrint) 
 Takes a string representation of a number and prints it to the display. 
 Must be a valid number:
@@ -48,7 +46,7 @@ Must be a valid number:
 ##### void printState(boolean state)
 Take a boolean input and print the corresponding state to the display.
 - true --> On 
-0 false --> Off
+- false --> Off
 
 ##### void printErr()
 Print "Err" to the display
@@ -56,7 +54,7 @@ Print "Err" to the display
 ##### void clearDisplay()
 Clear the display
 
-## Notes
+### Notes
 - If the string entered is invalid "Err" will be printed to the display 
 
 
