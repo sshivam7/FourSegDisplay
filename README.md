@@ -36,27 +36,30 @@ void loop() {
  }
 ```
 
+### Examples
+You may find example usage of this library under the examples folder of this repository or by visiting [arduino-thermometer](https://github.com/sshivam7/arduino-thermometer). 
+
 ## Functions
 ##### void printNum(String numToPrint) 
 Takes a string representation of a number and prints it to the display. 
 Must be a valid number:
 - A maximum of 4 digits and no more than 4 decimals (none beside one another)
-- Only digits between 0 and 9 are accepted
+- Only digits between 0 and 9 are accepted as valid inputs
 
 ##### void printState(boolean state)
 Take a boolean input and print the corresponding state to the display.
-- true --> On 
-- false --> Off
+- true --> prints "On" 
+- false --> prints "OFF"
 
 ##### void printErr()
 Print "Err" to the display
 
 ##### void clearDisplay()
-Clear the display
+Clears the display
 
 ### Notes
 - If the string entered is invalid "Err" will be printed to the display 
 
 
-## Author
+### Author
 Shivam Sood
